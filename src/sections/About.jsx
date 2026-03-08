@@ -4,13 +4,13 @@
 // const About = () => {
 //   return (
 //     <section id="about" className="min-h-screen flex items-center justify-center py-20 bg-slate-950 relative overflow-hidden">
-      
+
 //       {/* Background Decor (Subtle gradients) */}
 //       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none"></div>
 
 //       <div className="max-w-5xl mx-auto px-4 relative z-10">
 //         <RevealOnScroll>
-        
+
 //         {/* Heading */}
 //         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
 //           About <span className="text-blue-500">Me</span>
@@ -18,7 +18,7 @@
 
 //         {/* Content Grid */}
 //         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          
+
 //           {/* Left Column: The Narrative */}
 //           <div className="space-y-6 text-slate-300">
 //             <p className="text-lg leading-relaxed">
@@ -34,7 +34,7 @@
 
 //           {/* Right Column: Cards (Education & Stats) */}
 //           <div className="space-y-6">
-            
+
 //             {/* Education Card */}
 //             <div className="p-6 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm hover:-translate-y-1 transition-all">
 //               <h3 className="text-xl font-bold text-white mb-2">🎓 Education</h3>
@@ -75,81 +75,81 @@ import { RevealOnScroll } from '../components/RevealOnScroll';
 const About = () => {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20 bg-black relative">
-      
+
       {/* Narrative Flow: Fade into Projects at the bottom */}
       <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-black to-transparent z-10"></div>
 
       {/* CHANGED: max-w-7xl for a wider, more spacious layout */}
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <RevealOnScroll>
-        
-        <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-white">
-          About <span className="text-blue-500">Me</span>
-        </h2>
 
-        {/* CHANGED: gap-20 pushes the card to the right */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-          
-          {/* Left Column: The Narrative (Wider margin for readability) */}
-          <div className="space-y-8 text-gray-300">
-            <p className="text-lg leading-relaxed font-light">
-              I am a final-year student with a strong interest in solving complex problems through data-driven analysis, algorithmic thinking, and clean, reliable software design.
-            </p>
-            <p className="text-lg leading-relaxed font-light">
-              My academic journey began with a focus on programming fundamentals and systems thinking, and has since evolved into a strong interest in <strong className="text-blue-400 font-semibold">Data Science</strong>, <strong className="text-blue-400 font-semibold">Machine Learning</strong> and <strong className="text-blue-400 font-semibold"> scalable software systems</strong>.
-            </p>
-            <p className="text-lg leading-relaxed font-light">
-             I enjoy working at the intersection of analysis and engineering, where data-driven insights translate into practical solutions.
-            </p>
-            <p className="text-lg leading-relaxed font-light">
-              Outside of coding, I enjoy exploring emerging technologies, reading non-fiction focused on technology and systems., playing competitive sports and analyzing films from a storytelling perspective.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-white">
+            About <span className="text-blue-500">Me</span>
+          </h2>
 
-          {/* Right Column: Education Card (Bigger Padding + Pushed Right) */}
-          <div className="p-10 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:-translate-y-1 transition-all hover:shadow-[0_0_50px_rgba(59,130,246,0.1)] border-l-4 border-l-blue-500/50">
-              
+          {/* CHANGED: gap-20 pushes the card to the right */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+
+            {/* Left Column: The Narrative (Wider margin for readability) */}
+            <div className="space-y-8 text-gray-300">
+              <p className="text-lg leading-relaxed font-light">
+                I am a final-year student with a strong interest in solving complex problems through data-driven analysis, algorithmic thinking, and clean, reliable software design.
+              </p>
+              <p className="text-lg leading-relaxed font-light">
+                My academic journey began with a focus on programming fundamentals and systems thinking, and has since evolved into a strong interest in <strong className="text-blue-400 font-semibold">Data Science</strong>, <strong className="text-blue-400 font-semibold">Machine Learning</strong> and <strong className="text-blue-400 font-semibold"> Scalable software systems</strong>.
+              </p>
+              <p className="text-lg leading-relaxed font-light">
+                I enjoy working at the intersection of analysis and engineering, where data-driven insights translate into practical solutions.
+              </p>
+              <p className="text-lg leading-relaxed font-light">
+                Outside of coding, I enjoy exploring emerging technologies, reading non-fiction focused on technology and systems, playing competitive sports and analyzing films from a storytelling perspective.
+              </p>
+            </div>
+
+            {/* Right Column: Education Card (Bigger Padding + Pushed Right) */}
+            <div className="p-10 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:-translate-y-1 transition-all hover:shadow-[0_0_50px_rgba(59,130,246,0.1)] border-l-4 border-l-blue-500/50">
+
               <div className="flex items-center gap-4 mb-6">
-                 <span className="text-4xl">🎓</span>
-                 <h3 className="text-2xl font-bold text-white">Education</h3>
+                <span className="text-4xl">🎓</span>
+                <h3 className="text-2xl font-bold text-white">Education</h3>
               </div>
-              
+
               {/* <div className="mb-8">
                   <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering.</p>
                   <p className="text-gray-400 text-lg">BITS Pilani (2022 - 2026)</p>
               </div> */}
               <div className="mb-8">
-              <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering</p>
-              
-              {/* Added Minor Line */}
-              <p className="text-lg text-gray-400 italic mb-2">
-                Minor in Computing and Intelligence
-              </p>
-              
-              <p className="text-gray-400 text-lg">BITS Pilani (2022 - 2026)</p>
-            </div>
-              <div>
-                  <p className="font-semibold text-gray-300 mb-4 text-base">Relevant Coursework:</p>
-                  
-                  {/* Tags are slightly larger now */}
-                  <div className="flex flex-wrap gap-3">
-                    {[
-                      "Data Structures and Algorithms",  
-                      "Databases", 
-                      "Machine Learning & AI", 
-                      "Probability & Statistics",,
-                      "Supply Chain Management",
-                      "Quality Control and Reliability"
-                    ].map((course, index) => (
-                        <span key={index} className="px-4 py-2 bg-blue-500/10 text-blue-300 rounded-full text-sm font-medium border border-blue-500/20 hover:bg-blue-500/20 transition">
-                            {course}
-                        </span>
-                    ))}
-                  </div>
-              </div>
-          </div>
+                <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering</p>
 
-        </div>
+                {/* Added Minor Line */}
+                <p className="text-lg text-gray-400 italic mb-2">
+                  Minor in Computing and Intelligence
+                </p>
+
+                <p className="text-gray-400 text-lg">BITS Pilani Hyderabad Campus (2022 - 2026)</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-300 mb-4 text-base">Relevant Coursework:</p>
+
+                {/* Tags are slightly larger now */}
+                <div className="flex flex-wrap gap-3">
+                  {[
+                    "Data Structures and Algorithms",
+                    "Databases",
+                    "Machine Learning & AI",
+                    "Probability & Statistics",
+                    "Supply Chain Management",
+                    "Quality Control and Reliability"
+                  ].map((course, index) => (
+                    <span key={index} className="px-4 py-2 bg-blue-500/10 text-blue-300 rounded-full text-sm font-medium border border-blue-500/20 hover:bg-blue-500/20 transition">
+                      {course}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+          </div>
 
         </RevealOnScroll>
       </div>

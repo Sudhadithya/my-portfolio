@@ -39,11 +39,25 @@
 
 export const projects = [
   {
-    title: "Neural Robotic Kinematics", // formerly "Inverse Kinematics... using Neural Networks" [cite: 36]
-    description: "Developed a Deep Learning model to solve inverse kinematics for robotic manipulators (2R/3R/7R). Used PyTorch to predict joint angles with high precision, optimizing robotic control.",
-    tech: ["PyTorch", "Robotics", "Neural Networks", "Python"],
+    title: "End-to-End LLM Fine-Tuning & Inference Pipeline", // formerly "E-Commerce Site Development" 
+    description: "An end-to-end machine learning pipeline designed to fine-tune, evaluate, and deploy Large Language Models in resource-constrained environments. By leveraging LoRA adapters and 8-bit quantization, this platform efficiently fine-tunes the Microsoft Phi-2 model while achieving a 47% improvement in response quality.",
+    tech: ["Python", "Hugging Face (PEFT)", "FastAPI", "Docker", "Weights & Biases"],
     link: "#",
-    github: "\https://github.com/finalforgasm/Manipulator-DL-models"
+    github: "https://github.com/Sudhadithya/llm-finetuning"
+  },
+  {
+    title: "RAG News Intelligence Platform",
+    description: "Architected a modular Retrieval-Augmented Generation (RAG) pipeline integrating semantic chunking, FAISS vector indexing, and embedding-based constrained retrieval. Deployed as a high-performance, Dockerized inference service for context-grounded LLM analytics.",
+    tech: ["Python", "LangChain", "FAISS", "Prompt Engineering", "Docker"],
+    link: "#",
+    github: "https://github.com/Sudhadithya/RAG-System"
+  },
+  {
+    title: "Neural Robotic Kinematics",
+    description: "Engineered a deep learning engine using PyTorch to solve inverse kinematics via supervised nonlinear regression for complex manipulators. Built synthetic data generation pipelines and leveraged GPU-accelerated training workflows with systematic hyperparameter tuning to ensure robust cross-geometry generalization.",
+    tech: ["PyTorch", "Python", "Neural Networks", "GPU Training"],
+    link: "#",
+    github: "https://github.com/finalforgasm/Manipulator-DL-models"
   },
   {
     title: "AI Game Agent (Go)", // formerly "Mini Go Game with AI Agents" [cite: 23]
@@ -53,24 +67,10 @@ export const projects = [
     github: "https://github.com/finalforgasm/AI-Agent-GO-"
   },
   {
-    title: "RAG News Intelligence", // formerly "Intelligent News Article QA System" [cite: 32]
-    description: "Built an AI-powered news retrieval system using LangChain and FAISS. It ingests web articles, vectorizes them with OpenAI embeddings, and allows users to ask context-aware questions.",
-    tech: ["LangChain", "FAISS", "OpenAI", "RAG"],
-    link: "#",
-    github: "#" 
-  },
-  {
     title: "Real-Time OCR Engine", // formerly "OCR and image processing web application" [cite: 28]
     description: "Developed a text extraction system using OpenCV and Flask. Implemented advanced image preprocessing (noise reduction, grayscale) to maximize recognition accuracy on raw input.",
     tech: ["OpenCV", "Flask", "Computer Vision", "Python"],
     link: "#",
-    github: "https://github.com/finalforgasm/Python-OCR "
-  },
-  {
-    title: "Scalable E-Commerce Platform", // formerly "E-Commerce Site Development" 
-    description: "Contributed to a full-stack marketplace with optimized database schemas. Implemented stored procedures in MySQL for efficient inventory management and order processing.",
-    tech: ["Full Stack", "MySQL", "Flask", "Database Design"],
-    link: "#",
-    github: "https://github.com/finalforgasm/E-commerce-site"
+    github: "https://github.com/Sudhadithya/Python-OCR "
   }
 ];
